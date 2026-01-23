@@ -7,7 +7,7 @@ app.use(express.json());
 
 mongoose
     .connect(
-        process.env.MONGO_URI,
+        process.env.MONGO_URID,
     )
     .then(() => {
         console.log('MongoDB connected successfully');
